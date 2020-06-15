@@ -1,5 +1,5 @@
 # Coding
- practice coding BOJ, SW, etc
+ practice coding BOJ, SW, Codility etc
 
 [BOJ]
 1. #2444(B3): 별찍기7
@@ -56,3 +56,11 @@
 36. #3378(D4): 스타일리쉬 들여쓰기
 37. #5987(D4): 달리기
 38. #7194(D4): 화섭이의 미생물 배양
+
+[Codility]
+1. Lesson1(P) : Binary Gap
+2. Lesson2(P) : Cyclic Rotation
+3. Lesson2(P) : Odd Occurrences In Array
+4. Lesson3(P) : Frog Jmp
+5. Lesson3(P) : Perm Missing Elem
+6. Lesson3(P) : Tape Equilibrium
