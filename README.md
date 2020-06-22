@@ -59,8 +59,12 @@
 
 [Codility]
 1. Lesson1(P) : Binary Gap
-2. Lesson2(P) : Cyclic Rotation
-3. Lesson2(P) : Odd Occurrences In Array
-4. Lesson3(P) : Frog Jmp
-5. Lesson3(P) : Perm Missing Elem
-6. Lesson3(P) : Tape Equilibrium
+2. Lesson2-1(P) : Cyclic Rotation
+3. Lesson2-2(P) : Odd Occurrences In Array
+4. Lesson3-1(P) : Frog Jmp
+5. Lesson3-2(P) : Perm Missing Elem
+6. Lesson3-3(P) : Tape Equilibrium
+7. Lesson4-1(P) : Frog River One
+8. Lesson4-2(R) : Max Counters
+9. Lesson4-3(R) : Missing Integer
+10. Lesson4-4(P) : Perm Check
