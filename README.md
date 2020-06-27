@@ -68,3 +68,7 @@
 8. Lesson4-2(R) : Max Counters
 9. Lesson4-3(R) : Missing Integer
 10. Lesson4-4(P) : Perm Check
+11. Lesson5-1(R) : Count Div
+12. Lesson5-2(R) : Genomic Range Query
+13. Lesson5-3(R) : Min Avg Two Slice
+14. Lesson5-4(P) : Passing Cars
