@@ -72,6 +72,10 @@
 12. Lesson5-2(R) : Genomic Range Query
 13. Lesson5-3(R) : Min Avg Two Slice
 14. Lesson5-4(P) : Passing Cars
+15. Lesson6-1(P) : Distinct
+16. Lesson6-2(P) : Max Product Of Three
+17. Lesson6-3(R) : Number Of Disc Intersections
+18. Lesson6-4(P) : Triangle
 
 [Programmers]
 1. Level 1: 크레인 인형뽑기 게임
