@@ -76,6 +76,10 @@
 16. Lesson6-2(P) : Max Product Of Three
 17. Lesson6-3(R) : Number Of Disc Intersections
 18. Lesson6-4(P) : Triangle
+19. Lesson7-1(P) : Brackets
+20. Lesson7-2(P) : Fish
+21. Lesson7-3(P) : Nesting
+22. Lesson7-4(P) : Stone Wall
 
 [Programmers]
 1. Level 1: 크레인 인형뽑기 게임
