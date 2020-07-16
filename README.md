@@ -80,6 +80,8 @@
 20. Lesson7-2(P) : Fish
 21. Lesson7-3(P) : Nesting
 22. Lesson7-4(P) : Stone Wall
+23. Lesson8-1(P) : Dominator
+24. Lesson8-2(P) : Equi Leader
 
 [Programmers]
 1. Level 1: 크레인 인형뽑기 게임
