@@ -82,6 +82,9 @@
 22. Lesson7-4(P) : Stone Wall
 23. Lesson8-1(P) : Dominator
 24. Lesson8-2(P) : Equi Leader
+25. Lesson9-1(R) : Max Double Slice Sum
+26. Lesson9-2(P) : Max Profit
+27. Lesson9-3(P) : Max Slice Sum
 
 [Programmers]
 1. Level 1: 크레인 인형뽑기 게임
