@@ -85,6 +85,10 @@
 25. Lesson9-1(R) : Max Double Slice Sum
 26. Lesson9-2(P) : Max Profit
 27. Lesson9-3(P) : Max Slice Sum
+28. Lesson10-1(P) : Count Factors
+29. Lesson10-2(R) : Flags
+30. Lesson10-3(P) : Min Perimeter Rectangle
+31. Lesson10-4(R) : Peaks
 
 [Programmers]
 1. Level 1: 크레인 인형뽑기 게임
