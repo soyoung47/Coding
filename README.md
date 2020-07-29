@@ -89,6 +89,7 @@
 29. Lesson10-2(R) : Flags
 30. Lesson10-3(P) : Min Perimeter Rectangle
 31. Lesson10-4(R) : Peaks
+32. 
 
 [Programmers]
 1. Level 1: 크레인 인형뽑기 게임
