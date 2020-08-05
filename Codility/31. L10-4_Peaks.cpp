@@ -1,10 +1,8 @@
 /*
-    Time Complexity:
-    Result:::
-    Reference:::
+    Time Complexity: O(N * log(log(N)))
+    Result:::https://app.codility.com/demo/results/training67H57R-MPD/
+    Reference::: https://blog.naver.com/PostView.nhn?blogId=yeokyeong46&logNo=221600296267&parentCategoryNo=&categoryNo=7&viewDate=&isShowPopularPosts=false&from=postView
 */
-
-//81%: https://app.codility.com/demo/results/trainingRRP8MS-PE9/
 int solution(vector<int>& A) {
 
     vector<int> peak;
@@ -17,7 +15,7 @@ int solution(vector<int>& A) {
     for (int p = 1; p < size - 1; p++)
     {
         if (A[p] > A[p - 1] && A[p] > A[p + 1])
-            peak.push_back(p + 1);
+            peak.push_back(p);
     }
 
     //Find Maximum number of blocks
@@ -30,11 +28,11 @@ int solution(vector<int>& A) {
         if (size % k != 0) continue;
 
         int div_ind = size / k;
-        int i = 0, j = 0;
+        int i = 1, j = 0;
         bool check = false;
-        while (i + 1 <= k && j < peak_size)
+        while (i <= k && j < peak_size)
         {
-            if (peak[j] > i * div_ind && peak[j] <= (i + 1) * div_ind)
+            if (peak[j] >= (i - 1) * div_ind && peak[j] < i * div_ind)
             {
                 j++;
                 check = true;
@@ -44,6 +42,11 @@ int solution(vector<int>& A) {
                 if (!check)  break;
 
                 i++;
+                check = false;
+            }
+
+            if (j >= peak_size && i < k)
+            {
                 check = false;
             }
         }
