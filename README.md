@@ -91,6 +91,8 @@
 31. Lesson10-4(R) : Peaks
 32. Lesson11-1(R) : Count Non Divisible
 33. Lesson11-2(R) : Count Semiprimes
+34. Lesson12-1(P) : Chocolates By numbers
+35. Lesson12-2(R) : Common Prime Divisors
 
 [Programmers]
 1. Level 1: 크레인 인형뽑기 게임
