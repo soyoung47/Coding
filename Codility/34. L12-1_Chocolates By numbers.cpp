@@ -1,31 +1,40 @@
 /*
-    Time Complexity:
-    Result:::
-    Reference:::
+    Time Complexity: O(log(N + M))
+    Result::: https://app.codility.com/demo/results/trainingMUVMJM-B7M/
 */
-
-//75% : https://app.codility.com/demo/results/trainingSAVPCH-6GC/
-
 #include <vector>
+#include <math.h>
+#include <algorithm>
 
 int solution(int N, int M) {
 
-    vector<bool> choco(N, true);
-    int cnt = 0;
+    int gcf = 0;
+    int min = M;
 
-    int x = 0;
-    while(x < N)
+    if (N < M)  min = N;
+
+    //Find divisor(min의 약수)
+    vector<int> div;
+    for (int i = 1; i <= sqrt(min); i++)
     {
-        //Is Wrapper: STOP
-        if (!choco[x])   break;
+        if (min % i == 0)
+        {
+            div.push_back(i);
+            if (i != sqrt(min))
+                div.push_back(min / i);
+        }
+    }
+    sort(div.begin(), div.end());
 
-        //Eat Chocolate
-        choco[x] = false;
-        cnt++;
-
-        //Next Chocolate index
-        x = (x + M) % N;
+    //Find Greatest common factor (최대공약수)
+    for (int i = div.size() - 1; i >= 0; i--)
+    {
+        if (N % div[i] == 0 && M % div[i] == 0)
+        {
+            gcf = div[i];
+            break;
+        }
     }
 
-    return cnt;
+    return N / gcf;
 }
