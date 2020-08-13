@@ -1,13 +1,16 @@
 /*
-    Time Complexity: O(Z * (max(A) + max(B)))
-    Result::: 53% - https://app.codility.com/demo/results/trainingU7BKHF-B9J/
-    Reference:::
+    Time Complexity:
+    Result::: 69% - https://app.codility.com/demo/results/trainingU8J2W9-WSE/
+    Reference::: https://codility.com/media/train/10-Gcd.pdf
 */
-using namespace std;
 
-#include <vector>
-#include <math.h>
-#include <algorithm>
+int gcd(int a, int b)
+{
+    if (a % b == 0)
+        return b;
+    else
+        return gcd(b, a % b);
+}
 
 int solution(vector<int>& A, vector<int>& B) {
 
@@ -19,33 +22,13 @@ int solution(vector<int>& A, vector<int>& B) {
         int min = A[i], max = B[i];
         if (A[i] > B[i])    swap(min, max);
 
-        //Find divisor(min의 약수)
-        vector<int> div;
-        for (int i = 1; i <= sqrt(min); i++)
-        {
-            if (min % i == 0)
-            {
-                div.push_back(i);
-                if (i != sqrt(min))
-                    div.push_back(min / i);
-            }
-        }
-        sort(div.begin(), div.end());
-
-        //Find Greatest common factor (최대공약수)
-        int gcf = 0;
-        for (int i = div.size() - 1; i >= 0; i--)
-        {
-            if (min % div[i] == 0 && max % div[i] == 0)
-            {
-                gcf = div[i];
-                break;
-            }
-        }
+        //Find Greatest common factor (최대공약수) : Greatest common divisor
+        int gcf = gcd(max, min);
 
         //Is Same?
         if (min % (max / gcf) == 0)
             cnt++;
+
     }
 
     return cnt;
