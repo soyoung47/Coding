@@ -93,6 +93,8 @@
 33. Lesson11-2(R) : Count Semiprimes
 34. Lesson12-1(P) : Chocolates By numbers
 35. Lesson12-2(R) : Common Prime Divisors
+36. Lesson13-1(R) : Fib Frog
+37. Lesson13-2(R) : Ladder
 
 [Programmers]
 1. Level 1: 크레인 인형뽑기 게임
