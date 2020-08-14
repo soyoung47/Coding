@@ -1,7 +1,7 @@
 /*
     [solution 2]
     Time Complexity: O(log(N + M))
-    Result::: https://app.codility.com/demo/results/training9QBQRR-42X/
+    Result::: https://app.codility.com/demo/results/trainingMBU9NM-U8M/
     Reference::: https://codility.com/media/train/10-Gcd.pdf
 */
 
