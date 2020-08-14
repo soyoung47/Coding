@@ -6,10 +6,8 @@
 */
 
 //Find Greatest common divisor (최대공약수)
-int gcd(int a, int b)   // a > b
+int gcd(int a, int b)
 {
-    if (a < b)   swap(a, b);
-
     if (a % b == 0)
         return b;
     else
