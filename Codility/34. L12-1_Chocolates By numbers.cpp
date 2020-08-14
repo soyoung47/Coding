@@ -1,4 +1,29 @@
 /*
+    [solution 2]
+    Time Complexity: O(log(N + M))
+    Result::: https://app.codility.com/demo/results/training9QBQRR-42X/
+    Reference::: https://codility.com/media/train/10-Gcd.pdf
+*/
+
+//Find Greatest common divisor (최대공약수)
+int gcd(int a, int b)   // a > b
+{
+    if (a < b)   swap(a, b);
+
+    if (a % b == 0)
+        return b;
+    else
+        return gcd(b, a % b);
+}
+
+int solution(int N, int M) {
+
+    return N / gcd(N, M);
+}
+
+
+/*
+    [solution 1]
     Time Complexity: O(log(N + M))
     Result::: https://app.codility.com/demo/results/trainingMUVMJM-B7M/
 */
