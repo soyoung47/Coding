@@ -1,15 +1,15 @@
 /*
-    Time Complexity:
-    Result::: 69% - https://app.codility.com/demo/results/trainingU8J2W9-WSE/
-    Reference::: https://codility.com/media/train/10-Gcd.pdf
+    Time Complexity: O(Z * log(max(A) + max(B))**2)
+    Result::: https://app.codility.com/demo/results/trainingV4FT86-FAB/
+    Reference::: https://codility.com/media/train/10-Gcd.pdf, https://blog.naver.com/wideeyed/220859563821, https://blog.naver.com/simjy07/221800006275
 */
 
-int gcd(int a, int b)
+int findGCD(int a, int b)
 {
     if (a % b == 0)
         return b;
     else
-        return gcd(b, a % b);
+        return findGCD(b, a % b);
 }
 
 int solution(vector<int>& A, vector<int>& B) {
@@ -18,16 +18,38 @@ int solution(vector<int>& A, vector<int>& B) {
 
     for (int i = 0; i < A.size(); i++)
     {
-        //Find min, max
-        int min = A[i], max = B[i];
-        if (A[i] > B[i])    swap(min, max);
+        int a = A[i], b = B[i];
 
-        //Find Greatest common factor (최대공약수) : Greatest common divisor
-        int gcf = gcd(max, min);
-
-        //Is Same?
-        if (min % (max / gcf) == 0)
+        if (a == b)
+        {
             cnt++;
+            continue;
+        }
+
+        //Find Greatest common divisor (최대공약수)
+        int gcd = findGCD(A[i], B[i]);
+
+        if (gcd == 1)  continue;
+
+        //Quotient == 1 : include in GCD
+
+        a /= gcd;
+        while (a != 1)
+        {
+            int gcd_a = findGCD(a, gcd);
+            if (gcd_a == 1)    break;
+            a /= gcd_a;
+        }
+
+        b /= gcd;
+        while (b != 1)
+        {
+            int gcd_b = findGCD(b, gcd);
+            if (gcd_b == 1)    break;
+            b /= gcd_b;
+        }
+
+        if (a == 1 && b == 1)    cnt++;
 
     }
 
