@@ -95,6 +95,8 @@
 35. Lesson12-2(R) : Common Prime Divisors
 36. Lesson13-1(R) : Fib Frog
 37. Lesson13-2(R) : Ladder
+38. Lesson14-1(R) : Min Max Division
+39. Lesson14-2(R) : Nailing Planks
 
 [Programmers]
 1. Level 1: 크레인 인형뽑기 게임
