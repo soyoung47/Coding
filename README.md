@@ -97,6 +97,10 @@
 37. Lesson13-2(R) : Ladder
 38. Lesson14-1(R) : Min Max Division
 39. Lesson14-2(R) : Nailing Planks
+40. Lesson15-1(P) : Abs Distinct
+41. Lesson15-2(P) : Count Distinct Slices
+42. Lesson15-3(P) : Count Triangles
+43. Lesson15-4(R) : Min Abs Sum Of Two
 
 [Programmers]
 1. Level 1: 크레인 인형뽑기 게임
