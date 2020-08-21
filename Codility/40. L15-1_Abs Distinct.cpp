@@ -17,12 +17,12 @@ int solution(vector<int> &A) {
     return s.size();
 }
 
+
 /*
     [solution 1] : unordered_map
     Time Complexity: O(N) or O(N*log(N))
     Result::: https://app.codility.com/demo/results/trainingDG4Y3B-GZE/
 */
-
 #include <unordered_map>
 
 int solution(vector<int> &A) {
