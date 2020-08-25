@@ -103,7 +103,7 @@
 43. Lesson15-4(R) : Min Abs Sum Of Two
 
 [Programmers]
-1. Level 1: 크레인 인형뽑기 게임
+1. Level 1: 크레인 인형뽑기 게임 [2019 카카오 개발자 겨울 인터쉽]
 2. Level 1: 완주하지 못한 선수
 3. Level 1: 모의고사
 4. Level 1: 체육복
@@ -143,3 +143,11 @@
 38. Level 1: [1차] 비밀지도
 39. Level 1: 실패율
 40. Level 1: [1차] 다트 게임
+
+41. [2020 Kakao Blind Recruitment] Level 2: 문자열 압축
+42. [2020 Kakao Blind Recruitment] Level 2: 괄호 변환
+43. [2020 Kakao Blind Recruitment] Level 3: 자물쇠와 열쇠
+44. [2020 Kakao Blind Recruitment] Level 3: 기둥과 보 설치
+45. [2020 Kakao Blind Recruitment] Level 3: 외벽 점검
+46. [2020 Kakao Blind Recruitment] Level 3: 블록 이동하기
+47. [2020 Kakao Blind Recruitment] Level 4: 가사 검색
