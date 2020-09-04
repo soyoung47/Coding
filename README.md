@@ -159,3 +159,17 @@
 52. [2019 Kakao Blind Recruitment] Level 3: 매칭 점수
 53. [2019 Kakao Blind Recruitment] Level 4: 무지의 먹방 라이브
 54. [2019 Kakao Blind Recruitment] Level 4: 블록 게임
+
+55. [2018 Kakao Blind Recruitment] [1차] Level 1: 비밀지도
+56. [2018 Kakao Blind Recruitment] [1차] Level 1: 다트 게임
+57. [2018 Kakao Blind Recruitment] [1차] Level 2: 뉴스 클러스터링
+58. [2018 Kakao Blind Recruitment] [1차] Level 2: 프렌즈4블록
+59. [2018 Kakao Blind Recruitment] [1차] Level 2: 캐시
+60. [2018 Kakao Blind Recruitment] [1차] Level 3: 추석 트래픽
+61. [2018 Kakao Blind Recruitment] [1차] Level 3: 셔틀버스
+
+62. [2018 Kakao Blind Recruitment] [3차] Level 2: 방금그곡
+63. [2018 Kakao Blind Recruitment] [3차] Level 2: 압축
+64. [2018 Kakao Blind Recruitment] [3차] Level 2: 파일명 정렬
+65. [2018 Kakao Blind Recruitment] [3차] Level 2: n진수 게임
+66. [2018 Kakao Blind Recruitment] [3차] Level 4: 자동완성
