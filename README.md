@@ -130,15 +130,14 @@
 25. Level 1: 정수 제곱근 판별
 26. Level 1: 제일 작은 수 제거하기
 27. Level 1: 짝수와 홀수
-28. Level 1: 키패드 누르기
-29. Level 1: 최대공약수와 최소공배수
-30. Level 1: 콜라츠 추측
-31. Level 1: 평균 구하기
-32. Level 1: 하샤드 수
-33. Level 1: 핸드폰 번호 가리기
-34. Level 1: 행렬의 덧셈
-35. Level 1: x만큼 간격이 있는 n개의 숫자
-36. Level 1: 직사각형 별찍기
+28. Level 1: 최대공약수와 최소공배수
+29. Level 1: 콜라츠 추측
+30. Level 1: 평균 구하기
+31. Level 1: 하샤드 수
+32. Level 1: 핸드폰 번호 가리기
+33. Level 1: 행렬의 덧셈
+34. Level 1: x만큼 간격이 있는 n개의 숫자
+35. Level 1: 직사각형 별찍기
 
 [Programmers-KAKAO]
 1. [2020 Kakao Blind Recruitment] Level 2: 문자열 압축
