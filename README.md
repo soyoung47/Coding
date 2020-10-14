@@ -103,41 +103,36 @@
 43. Lesson15-4(R) : Min Abs Sum Of Two
 
 [Programmers]
-1. Level 1: 예산
-2. Level 1: 완주하지 못한 선수
-3. Level 1: 모의고사
-4. Level 1: 체육복
-5. Level 1: K번째수
-6. Level 1: 2016년
-7. Level 1: 가운데 글자 가져오기
-8. Level 1: 같은 숫자는 싫어
-9. Level 1: 나누어 떨어지는 숫자 배열
-10. Level 1: 두 정수 사이의 합
-11. Level 1: 문자열 내 마음대로 정렬하기
-12. Level 1: 문자열 내 p와 y의 개수
-13. Level 1: 문자열 내림차순으로 배치하기
-14. Level 1: 문자열 다루기 기본
-15. Level 1: 서울에서 김서방 찾기
-16. Level 1: 소수 찾기
-17. Level 1: 수박수박수박수박수박수?
-18. Level 1: 문자열을 정수로 바꾸기
-19. Level 1: 시저 암호
-20. Level 1: 약수의 합
-21. Level 1: 이상한 문자 만들기
-22. Level 1: 자릿수 더하기
-23. Level 1: 자연수 뒤집어 배열로 만들기
-24. Level 1: 정수 내림차순으로 배치하기
-25. Level 1: 정수 제곱근 판별
-26. Level 1: 제일 작은 수 제거하기
-27. Level 1: 짝수와 홀수
-28. Level 1: 최대공약수와 최소공배수
-29. Level 1: 콜라츠 추측
-30. Level 1: 평균 구하기
-31. Level 1: 하샤드 수
-32. Level 1: 핸드폰 번호 가리기
-33. Level 1: 행렬의 덧셈
-34. Level 1: x만큼 간격이 있는 n개의 숫자
-35. Level 1: 직사각형 별찍기
+1. Level 1: 2016년
+2. Level 1: 가운데 글자 가져오기
+3. Level 1: 같은 숫자는 싫어
+4. Level 1: 나누어 떨어지는 숫자 배열
+5. Level 1: 두 정수 사이의 합
+6. Level 1: 문자열 내 마음대로 정렬하기
+7. Level 1: 문자열 내 p와 y의 개수
+8. Level 1: 문자열 내림차순으로 배치하기
+9. Level 1: 문자열 다루기 기본
+10. Level 1: 서울에서 김서방 찾기
+11. Level 1: 소수 찾기
+12. Level 1: 수박수박수박수박수박수?
+13. Level 1: 문자열을 정수로 바꾸기
+14. Level 1: 시저 암호
+15. Level 1: 약수의 합
+16. Level 1: 이상한 문자 만들기
+17. Level 1: 자릿수 더하기
+18. Level 1: 자연수 뒤집어 배열로 만들기
+19. Level 1: 정수 내림차순으로 배치하기
+20. Level 1: 정수 제곱근 판별
+21. Level 1: 제일 작은 수 제거하기
+22. Level 1: 짝수와 홀수
+23. Level 1: 최대공약수와 최소공배수
+24. Level 1: 콜라츠 추측
+25. Level 1: 평균 구하기
+26. Level 1: 하샤드 수
+27. Level 1: 핸드폰 번호 가리기
+28. Level 1: 행렬의 덧셈
+29. Level 1: x만큼 간격이 있는 n개의 숫자
+30. Level 1: 직사각형 별찍기
 
 [Programmers-KAKAO]
 1. [2020 Kakao Blind Recruitment] Level 2: 문자열 압축
@@ -194,3 +189,50 @@
 2. [월간 코드 챌린지 시즌1] Level 2: 삼각 달팽이
 3. [월간 코드 챌린지 시즌1] Level 3: 풍선 터트리기
 4. [월간 코드 챌린지 시즌1] Level 4: 짝수 행 세기
+
+[Programmers-코딩테스트 고득점 Kit]
+1. [해시] Level 1: 완주하지 못한 선수
+2. [해시] Level 2: 전화번호 목록
+3. [해시] Level 2: 위장
+4. [해시] Level 3: 베스트앨범
+
+5. [스택/큐] Level 2: 주식가격
+6. [스택/큐] Level 2: 기능개발
+7. [스택/큐] Level 2: 다리를 지나는 트럭
+8. [스택/큐] Level 2: 프린터
+
+9. [힙(Heap)] Level 2: 더 맵게
+10. [힙(Heap)] Level 3: 디스크 컨트롤러
+11. [힙(Heap)] Level 3: 이중우선순위큐
+
+12. [정렬] Level 1: K번째수
+13. [정렬] Level 2: 가장 큰 수
+14. [정렬] Level 2: H-Index
+
+15. [완전탐색] Level 1: 모의고사
+16. [완전탐색] Level 2: 소수 찾기
+17. [완전탐색] Level 2: 카펫
+
+18. [탐욕법(Greedy)] Level 1: 체육복
+19. [탐욕법(Greedy)] Level 2: 큰 수 만들기
+20. [탐욕법(Greedy)] Level 2: 조이스틱
+21. [탐욕법(Greedy)] Level 2: 구명보트
+22. [탐욕법(Greedy)] Level 2: 섬 연결하기
+23. [탐욕법(Greedy)] Level 2: 단속카메라
+
+24. [동적계획법(DP)] Level 3: N으로 표현
+25. [동적계획법(DP)] Level 3: 정수 삼각형
+26. [동적계획법(DP)] Level 3: 등굣길
+27. [동적계획법(DP)] Level 4: 도둑질
+
+28. [DFS/BFS] Level 2: 타겟 넘버
+29. [DFS/BFS] Level 3: 네트워크
+30. [DFS/BFS] Level 3: 단어 변환
+31. [DFS/BFS] Level 3: 여행경로
+
+32. [이분탐색] Level 3: 입국심사
+33. [이분탐색] Level 4: 징검다리
+
+34. [그래프] Level 3: 가장 먼 노드
+35. [그래프] Level 3: 순위
+36. [그래프] Level 5: 방의 개수
