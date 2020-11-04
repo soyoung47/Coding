@@ -225,8 +225,8 @@
 19. [탐욕법(Greedy)] Level 2: 큰 수 만들기
 20. [탐욕법(Greedy)] Level 2: 조이스틱
 21. [탐욕법(Greedy)] Level 2: 구명보트
-22. [탐욕법(Greedy)] Level 2: 섬 연결하기
-23. [탐욕법(Greedy)] Level 2: 단속카메라
+22. [탐욕법(Greedy)] Level 3: 섬 연결하기
+23. [탐욕법(Greedy)] Level 3: 단속카메라
 
 24. [동적계획법(DP)] Level 3: N으로 표현
 25. [동적계획법(DP)] Level 3: 정수 삼각형
