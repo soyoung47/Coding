@@ -6,26 +6,20 @@ using namespace std;
 
 string solution(string number, int k) {
     string answer = "";
-    
+
     string str = number;
     char max;
-    int start = 0, ind;
-    while(1)
+    int ind;
+    while (1)
     {
-        if(k == str.size() || k == 0) return answer;
+        if (k == 0)  return answer + str;
+        else if (k == str.size())    return answer;
 
-        max = *max_element(str.begin() + start, str.begin() + k + 1);
+        max = *max_element(str.begin(), str.begin() + k + 1);
         ind = str.find_first_of(max);
-        k -= ind - start;
-        
-        if (start == 1)   answer += str[0];
-        
-        str = str.substr(ind);
-        start = 1;
-    }
-}
+        k -= ind;
 
-int main()
-{
-    string a = solution("41736122", 4);
+        answer += max;
+        str = str.substr(ind + 1);
+    }
 }
