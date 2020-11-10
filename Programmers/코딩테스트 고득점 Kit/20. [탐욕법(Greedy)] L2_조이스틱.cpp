@@ -5,29 +5,39 @@
 using namespace std;
 
 int solution(string name) {
-    int answer = 0;
+    int answer = 0, i = 0;
+    int len = name.size();
+    string str(len, 'A');   //초기 문자열
 
-    //각 자릿수의 최소 이동 횟수 (위/아래:알파벳 찾기)
-    for (char alpha : name)
+    while (1)
     {
-        if (alpha == 'A')    continue;
-        answer += min(alpha - 'A', 'Z' - alpha + 1);
-    }   
+        //최소 이동 횟수 (위/아래:알파벳 찾기)
+        str[i] = name[i];
+        answer += min(name[i] - 'A', 'Z' - name[i] + 1);
 
-    //커서 최소 이동 횟수 (오/왼)
-    char start = name[0];
-    sort(name.begin(), name.end());
+        if (str == name) break;
 
-    int ind = name.find_first_of(start);
-    int begin = name.find_last_of('A');
-
-    answer += (name.size() - 1 - ind) + (ind - begin - 1) * 2;
-    if (begin < 0)  answer -= (ind - begin - 1);        
+        //커서 이동 (오/왼 중 가까운 쪽으로 이동)
+        for (int j = 1; j < len; j++)
+        {
+            int ind = (i + j) % len;
+            int n_ind = (i + len - j) % len;
+            if (name[ind] != str[ind])
+            {
+                i = ind;
+                answer += j;
+                break;
+            }
+            else if (name[n_ind] != str[n_ind])
+            {
+                i = n_ind;
+                answer += j;
+                break;
+            }
+        }
+    }
 
     return answer;
 }
 
-int main()
-{
-    int a = solution("JEZ");
-}
+//https://mungto.tistory.com/44
