@@ -1,7 +1,7 @@
 # Coding
  practice coding BOJ, SW, Codility, Programmers etc.
 
-[BOJ]
+### [BOJ]
 1. #2444(B3): 별찍기7
 2. #13458(B2): 시험감독
 3. #7785(S5): 회사에 있는 사람(set, priority queue)
@@ -17,7 +17,7 @@
 13. #2217(S4): 로프
 14. #2352(G3): 반도체 설계
  
-[SWEA]
+### [SWEA]
 1. #4406(D3): 모음이 보이지 않는 사람
 2. #5215(D3): 햄버거 다이어트
 3. #1206(D3): [S/W 문제해결 기본] 1일차-View
@@ -57,7 +57,7 @@
 37. #5987(D4): 달리기
 38. #7194(D4): 화섭이의 미생물 배양
 
-[Codility]
+### [Codility]
 1. Lesson1(P) : Binary Gap
 2. Lesson2-1(P) : Cyclic Rotation
 3. Lesson2-2(P) : Odd Occurrences In Array
@@ -102,7 +102,7 @@
 42. Lesson15-3(P) : Count Triangles
 43. Lesson15-4(R) : Min Abs Sum Of Two
 
-[Programmers]
+### [Programmers]
 1. Level 1: 2016년
 2. Level 1: 가운데 글자 가져오기
 3. Level 1: 같은 숫자는 싫어
@@ -134,7 +134,7 @@
 29. Level 1: x만큼 간격이 있는 n개의 숫자
 30. Level 1: 직사각형 별찍기
 
-[Programmers-KAKAO]
+### [Programmers-KAKAO]
 1. [2020 Kakao Blind Recruitment] Level 2: 문자열 압축
 2. [2020 Kakao Blind Recruitment] Level 2: 괄호 변환
 3. [2020 Kakao Blind Recruitment] Level 3: 자물쇠와 열쇠
@@ -142,7 +142,6 @@
 5. [2020 Kakao Blind Recruitment] Level 3: 외벽 점검
 6. [2020 Kakao Blind Recruitment] Level 3: 블록 이동하기
 7. [2020 Kakao Blind Recruitment] Level 4: 가사 검색
-
 8. [2019 Kakao Blind Recruitment] Level 2: 오픈채팅방
 9. [2019 Kakao Blind Recruitment] Level 2: 실패율
 10. [2019 Kakao Blind Recruitment] Level 2: 후보키
@@ -150,7 +149,6 @@
 12. [2019 Kakao Blind Recruitment] Level 3: 매칭 점수
 13. [2019 Kakao Blind Recruitment] Level 4: 무지의 먹방 라이브
 14. [2019 Kakao Blind Recruitment] Level 4: 블록 게임
-
 15. [2018 Kakao Blind Recruitment] [1차] Level 1: 비밀지도
 16. [2018 Kakao Blind Recruitment] [1차] Level 1: 다트 게임
 17. [2018 Kakao Blind Recruitment] [1차] Level 2: 뉴스 클러스터링
@@ -158,25 +156,21 @@
 19. [2018 Kakao Blind Recruitment] [1차] Level 2: 캐시
 20. [2018 Kakao Blind Recruitment] [1차] Level 3: 추석 트래픽
 21. [2018 Kakao Blind Recruitment] [1차] Level 3: 셔틀버스
-
 22. [2018 Kakao Blind Recruitment] [3차] Level 2: 방금그곡
 23. [2018 Kakao Blind Recruitment] [3차] Level 2: 압축
 24. [2018 Kakao Blind Recruitment] [3차] Level 2: 파일명 정렬
 25. [2018 Kakao Blind Recruitment] [3차] Level 2: n진수 게임
 26. [2018 Kakao Blind Recruitment] [3차] Level 4: 자동완성
-
 27. [2019 카카오 개발자 겨울 인턴십] Level 1: 크레인 인형뽑기 게임
 28. [2019 카카오 개발자 겨울 인턴십] Level 2: 튜플
 29. [2019 카카오 개발자 겨울 인턴십] Level 3: 불량 사용자
 30. [2019 카카오 개발자 겨울 인턴십] Level 3: 징검다리 건너기
 31. [2019 카카오 개발자 겨울 인턴십] Level 4: 호텔 방 배정
-
 32. [2020 카카오 인턴십] Level 1: 키패드 누르기
 33. [2020 카카오 인턴십] Level 2: 수식 최대화
 34. [2020 카카오 인턴십] Level 3: 보석 쇼핑
 35. [2020 카카오 인턴십] Level 3: 경주로 건설
 36. [2020 카카오 인턴십] Level 4: 동굴 탐험
-
 37. [2017 카카오코드 예선] Level 2: 카카오프렌즈 컬러링북
 38. [2017 카카오코드 예선] Level 3: 브라이언의 고민
 39. [2017 카카오코드 예선] Level 3: 보행자 천국
@@ -184,7 +178,7 @@
 41. [2017 카카오코드 예선] Level 4: 캠핑
 42. [2017 카카오코드 예선] Level 5: 신비로운 유적 탐험
 
-[Programmers-월간 코드 챌린지]
+### [Programmers-월간 코드 챌린지]
 1. [월간 코드 챌린지 시즌1] [9월] Level 1: 두 개 뽑아서 더하기
 2. [월간 코드 챌린지 시즌1] [9월] Level 2: 삼각 달팽이
 3. [월간 코드 챌린지 시즌1] [9월] Level 3: 풍선 터트리기
@@ -198,7 +192,7 @@
 11. [월간 코드 챌린지 시즌1] [11월] Level 3: 스타 수열
 12. [월간 코드 챌린지 시즌1] [11월] Level 5: 가짜 해밀토니안
 
-[Programmers-코딩테스트 고득점 Kit]
+### [Programmers-코딩테스트 고득점 Kit]
 1. [해시] Level 1: 완주하지 못한 선수
 2. [해시] Level 2: 전화번호 목록
 3. [해시] Level 2: 위장
@@ -222,7 +216,6 @@
 21. [탐욕법(Greedy)] Level 2: 구명보트
 22. [탐욕법(Greedy)] Level 3: 섬 연결하기
 23. [탐욕법(Greedy)] Level 3: 단속카메라
-
 24. [동적계획법(DP)] Level 3: N으로 표현
 25. [동적계획법(DP)] Level 3: 정수 삼각형
 26. [동적계획법(DP)] Level 3: 등굣길
@@ -231,10 +224,8 @@
 29. [DFS/BFS] Level 3: 네트워크
 30. [DFS/BFS] Level 3: 단어 변환
 31. [DFS/BFS] Level 3: 여행경로
-
 32. [이분탐색] Level 3: 입국심사
 33. [이분탐색] Level 4: 징검다리
-
 34. [그래프] Level 3: 가장 먼 노드
 35. [그래프] Level 3: 순위
 36. [그래프] Level 5: 방의 개수
