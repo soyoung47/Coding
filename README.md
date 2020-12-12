@@ -1,5 +1,5 @@
 # Coding
- practice coding BOJ, SW, Codility, Programmers etc.
+ Practice coding from BOJ, SW, Codility, Programmers etc.
 
 ### [BOJ]
 1. #2444(B3): 별찍기7
@@ -18,6 +18,9 @@
 14. #2352(G3): 반도체 설계
 15. #1920(S4): 수 찾기
 16. #10816(S4): 숫자 카드 2
+17. #1654(S3): 랜선 자르기
+18. #2805(S3): 나무 자르기
+19. #2110(S1): 공유기 설치
  
 ### [SWEA]
 1. #4406(D3): 모음이 보이지 않는 사람
