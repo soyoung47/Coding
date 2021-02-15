@@ -223,6 +223,13 @@
 40. [2017 카카오코드 예선] Level 4: 4단 고음
 41. [2017 카카오코드 예선] Level 4: 캠핑
 42. [2017 카카오코드 예선] Level 5: 신비로운 유적 탐험
+43. [2021 Kakao Blind Recruitment] Level 1: 신규 아이디 추천
+44. [2021 Kakao Blind Recruitment] Level 2: 메뉴 리뉴얼
+45. [2021 Kakao Blind Recruitment] Level 2: 순위 검색
+46. [2021 Kakao Blind Recruitment] Level 3: 합승 택시 요금
+47. [2021 Kakao Blind Recruitment] Level 3: 광고 삽입
+48. [2021 Kakao Blind Recruitment] Level 3: 카드 짝 맞추기
+49. [2021 Kakao Blind Recruitment] Level 4: 매출 하락 최소화
 
 ### [Programmers-월간 코드 챌린지]
 1. [월간 코드 챌린지 시즌1] [9월] Level 1: 두 개 뽑아서 더하기
