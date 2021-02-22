@@ -1,6 +1,8 @@
 //https://www.acmicpc.net/problem/2248
 //
 
+
+//dp[][] 이차배열 사용
 //메모리 초과
 #include <iostream>
 #include <vector>
